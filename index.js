@@ -1,4 +1,3 @@
-// private methods
 
 const { log } = console;
 
@@ -22,15 +21,13 @@ const counterRun = () => {
 
     log('First counter')
     const counter = counterFactory()
-    logExec(counter, increment);
-    logExec(counter, increment);
-    logExec(counter, decrement);
+    logExec(counter, increment)
+    logExec(counter, decrement)
 
     log('New counter memory')
     const counter2 = counterFactory()
-    logExec(counter2, decrement);
-    logExec(counter2, decrement);
-    logExec(counter2, increment);
+    logExec(counter2, decrement)
+    logExec(counter2, increment)
 }
 
 const main = () => {
